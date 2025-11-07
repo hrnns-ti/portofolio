@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haerunnas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Haerunnas</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Ini hiasan background -->
+    <!-- <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+        <div class="shape shape-6"></div>
+    </div> -->
+    
+    <!-- Tambahan -->
+    <div class="decorative-dots"></div>
+    <div class="decorative-lines">
+        <div class="deco-line line-1"></div>
+        <div class="deco-line line-2"></div>
+        <div class="deco-line line-3"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div> -->
+        <div class="animated-grid"></div>
+        <div class="container hero-content">
+            <div class="hero-profile">
+                <div class="profile-avatar">
+                    <div class="avatar-ring"></div>
+                    <img class="avatar-image" src="/assets/avatar.jpg"></img>
+                    <div class="floating-badge badge-1" src=""></div>
+                    <div class="floating-badge badge-2" src=""></div>
+                    <div class="floating-badge badge-3" src=""></div>
+                </div>
+            </div>
+            <div class="hero-text">
+                <h1 class="hero-title gradient-text">Hi, I'm <span class="highlight">Haerunnas</span></h1>
+                <h2 class="hero-subtitle">Computer Science Student</h2>
+                <p class="hero-tagline">Crafting elegant solutions with modern technologies</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn--primary">View My Work</a>
+                    <a class="btn btn--outline">- - - - - - - - - -</a>
+                    <a href="#contact" class="btn btn--outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <h3>5</h3>
+                    <p>Projects</p>
+                </div>
+                <div class="stat-card">
+                    <h3>10+</h3>
+                    <p>Technologies</p>
+                </div>
+                <div class="stat-card">
+                    <h3>2+</h3>
+                    <p>Learn Journey</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-bio">
+                        I'm a passionate student @ UIN Syarif Hidayatullah Jakarta with interest in backend development, database systems, web applications, and cyber security. 
+                        I love solving complex problems and creating elegant solutions that make a real impact.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <h4>🎯 Mission</h4>
+                            <p>Creating efficient, scalable solutions that solve real-world problems</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h4>💡 Specialties</h4>
+                            <p>Web Development, Database Design, API Architecture, Security</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h4>📍 Location</h4>
+                            <p>Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="decorative-line"></div>
+        <div class="container">
+            <h2 class="section-title gradient-text">Featured Projects</h2>
+            <p class="section-subtitle">Here are some of my recent works that showcase my development skills</p>
+             
+            <div class="projects-grid">
+                <!-- Project 1: Climact -->
+                <div class="project-card flip-card" data-category="fullstack">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="project-image">
+                                <div class="project-placeholder" style="background: var(--color-bg-1);">🌍</div>
+                                <div class="project-overlay">
+                                    <span class="view-details">View Details →</span>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">ClimAct</h3>
+                                <p class="project-short">Climate Action Platform</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="project-content">
+                                <h3 class="project-title">ClimAct</h3>
+                                <p class="project-description">
+                                    A comprehensive platform for tracking and celebrating climate action initiatives. 
+                                    Features user authentication, gamification system, and progress tracking.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-badge glow">Node.js</span>
+                                    <span class="tech-badge glow">Express</span>
+                                    <span class="tech-badge glow">SQL</span>
+                                    <span class="tech-badge glow">JWT</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" target="_blank" class="btn btn--primary btn--sm">Live Demo</a>
+                                    <a href="#" target="_blank" class="btn btn--outline btn--sm">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Expense Tracker -->
+                <div class="project-card flip-card" data-category="backend">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="project-image">
+                                <div class="project-placeholder" style="background: var(--color-bg-2);">💰</div>
+                                <div class="project-overlay">
+                                    <span class="view-details">View Details →</span>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Expense Tracker</h3>
+                                <p class="project-short">Personal Finance Management</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="project-content">
+                                <h3 class="project-title">Expense Tracker</h3>
+                                <p class="project-description">
+                                    Java-based CLI application for managing personal expenses with data persistence 
+                                    and comprehensive financial reporting.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-badge glow">Java</span>
+                                    <span class="tech-badge glow">ArrayList</span>
+                                    <span class="tech-badge glow">File I/O</span>
+                                    <span class="tech-badge glow">OOP</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" target="_blank" class="btn btn--primary btn--sm">Live Demo</a>
+                                    <a href="#" target="_blank" class="btn btn--outline btn--sm">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card flip-card" data-category="security">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="project-image">
+                                <div class="project-placeholder" style="background: var(--color-bg-3);">🔒</div>
+                                <div class="project-overlay">
+                                    <span class="view-details">View Details →</span>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">NukeForce</h3>
+                                <p class="project-short">BruteForce Tools</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="project-content">
+                                <h3 class="project-title">NukeForce</h3>
+                                <p class="project-description">
+                                    A high-performance brute-force password in C# (.NET) designed for modern multicore systems.
+                                    It exhaustively tests all possible password combinations, efficiently distributing  processes. Each process further divides its workload into multiple thread-based blocks, ensuring balanced and fully parallel execution across all CPU cores.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-badge glow">C#</span>
+                                    <span class="tech-badge glow">Security</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" target="_blank" class="btn btn--primary btn--sm">Live Demo</a>
+                                    <a href="#" target="_blank" class="btn btn--outline btn--sm">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4: 3D Object Rotator -->
+                <div class="project-card flip-card" data-category="frontend">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="project-image">
+                                <div class="project-placeholder" style="background: var(--color-bg-5);">🌀</div>
+                                <div class="project-overlay">
+                                    <span class="view-details">View Details →</span>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">3D Object Rotator</h3>
+                                <p class="project-short">Analytics &amp; Monitoring</p>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="project-content">
+                                <h3 class="project-title">3D Object Rotator</h3>
+                                <p class="project-description">
+                                    An intuitive interface that allows users to rotate 3D objects in real-time using hand tracking. It provides a seamless and natural way to interact with 3D models, making it ideal for design, gaming, and virtual reality applications.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-badge glow">Python</span>
+                                    <span class="tech-badge glow">OpenGL</span>
+                                    <span class="tech-badge glow">Tracking</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" target="_blank" class="btn btn--primary btn--sm">Live Demo</a>
+                                    <a href="#" target="_blank" class="btn btn--outline btn--sm">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Activities & Competitions Section -->
+    <section class="activities" id="activities">
+        <div class="decorative-line"></div>
+        <div class="container">
+            <h2 class="section-title gradient-text">Activities &amp; Competitions</h2>
+            <p class="section-subtitle">My journey through competitions, workshops, and community events</p>
+            
+
+            
+            <div class="activities-gallery">
+                <div class="gallery-activity-card aspect-square">
+                    <div class="gallery-activity-image">
+                        <img src="/assets/iddr.jpeg" alt="International CTF Competition by OffSec">
+                    </div>
+                    <div class="gallery-activity-overlay">
+                        <div class="gallery-activity-content">
+                            <span class="gallery-badge ctf-badge">Workshop</span>
+                            <h3 class="gallery-activity-title">Building Inclusive Design</h3>
+                            <p class="gallery-activity-org">IDDR - Amartha </p>
+                            <p class="gallery-activity-date">📅 October 2025</p>
+                            <p class="gallery-activity-description">
+                                Participated in IDDR x Amartha Workshop. Building Inclusive Design..
+                            </p>
+                            <div class="gallery-activity-placement qualified">✓ Attendee</div>
+                            <!-- <div class="gallery-activity-placement top-10">🏆 Top 10</div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Activity 2: Web Development Hackathon -->
+                <div class="gallery-activity-card aspect-wide">
+                    <div class="gallery-activity-image">
+                        <img src="/assets/ctf.png" alt="International CTF Competition by OffSec">
+                    </div>
+                    <div class="gallery-activity-overlay">
+                        <div class="gallery-activity-content">
+                            <span class="gallery-badge hackathon-badge">CTF</span>
+                            <h3 class="gallery-activity-title">International CTF Competition by OffSec</h3>
+                            <p class="gallery-activity-org">OffSec - Kali</p>
+                            <p class="gallery-activity-date">📅 September 2025 - November 2025</p>
+                            <p class="gallery-activity-description">
+                                Participated in national-level Capture The Flag competition. Solved 15+ challenges across web security, and forensics domains.
+                            </p>
+                            <div class="gallery-activity-placement finalist">🥈 Top 500</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Activity 3: Backend Architecture Workshop -->
+                <div class="gallery-activity-card aspect-tall">
+                    <div class="gallery-activity-image">
+                        <img src="/assets/OpenGauss.png" alt="OpenGauss Course">
+                    </div>
+                    <div class="gallery-activity-overlay">
+                        <div class="gallery-activity-content">
+                            <span class="gallery-badge workshop-badge">Course</span>
+                            <h3 class="gallery-activity-title">OpenGauss</h3>
+                            <p class="gallery-activity-org">Huawei</p>
+                            <p class="gallery-activity-date">📅 October 2025</p>
+                            <p class="gallery-activity-description">
+                                Completed an advanced hands-on course led by industry experts with practical labs and real-world exercises.
+                            </p>
+                            <div class="gallery-activity-placement qualified">✓ Completed</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Activity 4: Security Forensics Challenge -->
+                <div class="gallery-activity-card aspect-square">
+                    <div class="gallery-activity-image">
+                        <img src="/assets/gdgbinus.png" alt="GDG Binus Workshop">
+                    </div>
+                    <div class="gallery-activity-overlay">
+                        <div class="gallery-activity-content">
+                            <span class="gallery-badge ctf-badge">Workshop</span>
+                            <h3 class="gallery-activity-title">Build with AI: From Ideas to Impact - Hackathon</h3>
+                            <p class="gallery-activity-org">GDGoC Binus</p>
+                            <p class="gallery-activity-date">📅 April 2025</p>
+                            <p class="gallery-activity-description">
+                                Attended a hands-on workshop and mini-hackathon "Build with AI: From Ideas to Impact" organized by GDGoC Binus. In a short team sprint we prototyped an AI-powered MVP, implementing a lightweight model pipeline in Python with TensorFlow and exposing it via a Flask API. Focused on rapid ideation, user-flow testing, and a minimal cloud demo deployment; the team qualified to present the final prototype to mentors.
+                            </p>
+                            <div class="gallery-activity-placement qualified">✓ Qualified</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Activity 6: Tech Talk: Web Security -->
+                <div class="gallery-activity-card aspect-square">
+                    <div class="gallery-activity-image">
+                        <img src="/assets/samsung.png" alt="SIC">
+                    </div>
+                    <div class="gallery-activity-overlay">
+                        <div class="gallery-activity-content">
+                            <span class="gallery-badge talk-badge">Learn Activity</span>
+                            <h3 class="gallery-activity-title">Samsung Innovation Campus</h3>
+                            <p class="gallery-activity-org">Samsung - Dibimbing</p>
+                            <p class="gallery-activity-date">📅 August - September 2025</p>
+                            <p class="gallery-activity-description">
+                                Presented a hands-on session at Samsung Innovation Campus on secure coding best practices, live demos, and a Q&A with practical resources for continued learning.
+                            </p>
+                            <div class="gallery-activity-placement speaker">🎤 Speaker</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <!-- <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title gradient-text">Project Gallery</h2>
+            <p class="section-subtitle">Visual showcase of my work and designs</p>
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-large" style="background: var(--color-bg-1);">
+                    <div class="gallery-content">
+                        <span class="gallery-icon">🌐</span>
+                        <h3>Web Applications</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" style="background: var(--color-bg-2);">
+                    <div class="gallery-content">
+                        <span class="gallery-icon">⚙️</span>
+                        <h3>Backend Systems</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" style="background: var(--color-bg-3);">
+                    <div class="gallery-content">
+                        <span class="gallery-icon">🎨</span>
+                        <h3>UI Design</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" style="background: var(--color-bg-4);">
+                    <div class="gallery-content">
+                        <span class="gallery-icon">📱</span>
+                        <h3>Mobile Apps</h3>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-large" style="background: var(--color-bg-5);">
+                    <div class="gallery-content">
+                        <span class="gallery-icon">🔐</span>
+                        <h3>Security Tools</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" style="background: var(--color-bg-6);">
+                    <div class="gallery-content">
+                        <span class="gallery-icon">🚀</span>
+                        <h3>Performance</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="decorative-line"></div>
+        <div class="container">
+            <h2 class="section-title gradient-text">Skills &amp; Technologies</h2>
+            <p class="section-subtitle">Technologies and tools I work with</p>
+            <div class="skills-grid">
+                <div class="skill-category glass-card">
+                    <h3 class="category-title">⚙️ Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Express.js</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">25%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="25"></div>
+                            </div>
+                        </div>
+                        <!-- <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">JWT</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3 class="category-title">🎨 Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">CSS/HTML</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Flutter</span>
+                                <span class="skill-percentage">15%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="15"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3 class="category-title">🗄️ Database</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">PostgreSQL</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Oracle Apex</span>
+                                <span class="skill-percentage">30%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="30"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">OpenGauss</span>
+                                <span class="skill-percentage">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-percentage">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="60"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3 class="category-title">🛠️ Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Git/GitHub</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <!-- <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Docker</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div> -->
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Linux</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <!-- <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">AWS</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3 class="category-title">💬 Language</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">C#</span>
+                                <span class="skill-percentage">65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">C++</span>
+                                <span class="skill-percentage">35%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="35"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3 class="category-title">🖌️ Design</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Photoshop</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Alight Motion</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Figma</span>
+                                <span class="skill-percentage">65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Unreal Engine</span>
+                                <span class="skill-percentage">25%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="25"></div>
+                            </div>
+                        </div>
+                        <!-- <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience &amp; Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Future</span>
+                        <h3 class="timeline-title">Full Stack Developer / Ethical Hacker</h3>
+                        <h4 class="timeline-company"></h4>
+                        <p class="timeline-description">
+                            Developing various web applications focusing on backend systems, database design, 
+                            and conducting security assessments to ensure robust application protection. Specializing in both development and ethical hacking, with focus on application security, penetration testing, and secure code implementation.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - Present</span>
+                        <h3 class="timeline-title">Computer Science Student</h3>
+                        <h4 class="timeline-company">Islamic State Syarif Hidayatullah University</h4>
+                        <p class="timeline-description">
+                            Studying computer science with focus on backend development, data structures, 
+                            algorithms, and cybersecurity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a project in mind or want to collaborate? Let's connect!</p>
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Connect with me</h3>
+                    <div class="social-links">
+                        <a href="mailto:nassjourney@gmail.com" class="social-link" target="_blank">
+                            <span class="social-icon">✉️</span>
+                            <span>nassjourney@gmail.com</span>
+                        </a>
+                        <a href="https://github.com/hrnns-ti" class="social-link" target="_blank">
+                            <span class="social-icon">🔗</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/haerunnas/" class="social-link" target="_blank">
+                            <span class="social-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://instagram.com/cnstllx" class="social-link" target="_blank">
+                            <span class="social-icon">📸</span>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Haerunnas. Built with passion and dedication.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
