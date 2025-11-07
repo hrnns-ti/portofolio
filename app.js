@@ -87,7 +87,7 @@ contactForm.addEventListener('submit', (e) => {
     animation: slideIn 0.3s ease-out;
     font-weight: 500;
   `;
-  successMessage.textContent = '✓ Message sent successfully!';
+  successMessage.textContent = 'Sorry, this feature is on a vacation!';
   
   document.body.appendChild(successMessage);
   
